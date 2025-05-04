@@ -1,0 +1,6076 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="这是一个属于我的文章收藏夹，里面整理了来自互联网上、我认为应该多读的文章。">
+      
+      
+        <meta name="author" content="xdite">
+      
+      
+      
+        <link rel="prev" href="../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E4%B8%80%E7%AD%89%E7%9A%84%E6%80%9D%E7%BB%B4/">
+      
+      
+        <link rel="next" href="../%E4%BD%A0%E7%9A%84%E5%8D%87%E7%BA%A7%E5%8D%A1%E9%A1%BF%E7%82%B9%E5%9C%A8%E5%93%AA%E9%87%8C/">
+      
+      
+      <link rel="icon" href="../../../assets/img/icon/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>算法决定了你最终的命运 - ZZ的阅读馆</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="ZZ的阅读馆" class="md-header__button md-logo" aria-label="ZZ的阅读馆" data-md-component="logo">
+      
+  <img src="../../../assets/img/icon/绿恶魔.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ZZ的阅读馆
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              算法决定了你最终的命运
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  首页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%9B%B4%E5%8A%AA%E5%8A%9B%E6%89%8D%E5%AF%B9/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  槽边往事
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E8%AE%A9%E5%A5%87%E8%BF%B9%E5%8F%91%E7%94%9F/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  认知类
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E5%B8%88%E8%AF%B4/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  古诗文
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E5%89%8D%E8%A8%80/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  xdite
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="ZZ的阅读馆" class="md-nav__button md-logo" aria-label="ZZ的阅读馆" data-md-component="logo">
+      
+  <img src="../../../assets/img/icon/绿恶魔.png" alt="logo">
+
+    </a>
+    ZZ的阅读馆
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    首页
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            首页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%AA%E4%BA%BA/%E4%BF%A1%E6%9D%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    信条
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    槽边往事
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            槽边往事
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    道理建议
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            道理建议
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%9B%B4%E5%8A%AA%E5%8A%9B%E6%89%8D%E5%AF%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    你应该更努力才对
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E5%AE%9A%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    定期更新你的模型
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E5%88%AB%E6%8A%8A%E5%A5%BD%E4%B8%9C%E8%A5%BF%E7%95%99%E7%BB%99%E7%AC%AC%E4%BA%8C%E5%A4%A9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    别把好东西留给第二天
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E8%83%BD%E5%9D%9A%E6%8C%81%E4%B8%80%E4%B8%A4%E4%BB%B6%E4%BA%8B%E5%B0%B1%E8%B6%B3%E5%A4%9F%E4%BA%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    能坚持一两件事就足够了
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E7%BA%B3%E7%93%A6%E5%B0%94%EF%BC%9A%E5%A6%82%E4%BD%95%E4%B8%8D%E9%9D%A0%E8%BF%90%E6%B0%94%E8%87%B4%E5%AF%8C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    纳瓦尔：如何不靠运气致富
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E7%BA%B3%E7%93%A6%E5%B0%94%EF%BC%9A%E5%A6%82%E4%BD%95%E4%B8%8D%E9%9D%A0%E8%BF%90%E6%B0%94%E8%87%B4%E5%AF%8C2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    纳瓦尔：如何不靠运气致富2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E9%81%93%E7%90%86%E5%BB%BA%E8%AE%AE/%E4%BF%9D%E7%BD%97%EF%BC%9A%E5%A6%82%E4%BD%95%E6%88%90%E5%B0%B1%E5%B9%B4%E8%BD%BB%E4%BA%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    保罗：如何成就年轻人
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    观察世界
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            观察世界
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E8%A7%82%E5%AF%9F%E4%B8%96%E7%95%8C/%E4%B8%80%E5%88%87%E5%8F%96%E5%86%B3%E4%BA%8E%E8%A7%82%E5%AF%9F%E7%9A%84%E8%A7%92%E5%BA%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    一切取决于观察的角度
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E8%A7%82%E5%AF%9F%E4%B8%96%E7%95%8C/%E9%B8%B5%E9%B8%9F%E8%B5%B0%E8%BF%87%E5%9F%8E%E5%B8%82/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    鸵鸟走过城市
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E8%A7%82%E5%AF%9F%E4%B8%96%E7%95%8C/%E6%99%AF%E8%A7%82%E7%94%9F%E6%B4%BB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    景观生活
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E8%A7%82%E5%AF%9F%E4%B8%96%E7%95%8C/%E4%BB%8E150%E4%BA%BA1000%E7%89%A9%E4%B8%AD%E6%92%A4%E9%80%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    从150人1000物中撤退
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    价值观
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            价值观
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E4%BB%B7%E5%80%BC%E8%A7%82/%E4%BD%A0%E6%80%8E%E4%B9%88%E8%BF%98%E4%B8%8D%E4%B8%8A%E8%BD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    你怎么还不上车
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    写作
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            写作
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%86%99%E4%BD%9C%E7%9A%84%E4%BB%B7%E5%80%BC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    写作的价值
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E5%A6%99%E7%AC%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    普通人的妙笔
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%A5%BD%E6%96%87%E5%AD%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    好文字
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E6%96%B0%E6%89%8B%E6%B8%85%E4%B8%94%E6%B5%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    新手清且浅
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E9%95%BF%E6%96%87%E5%92%8C%E7%9F%AD%E5%8F%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    长文和短句
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E8%A7%82%E7%82%B9%E5%92%8C%E6%83%B3%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    观点和想法
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E4%BB%8E%E6%AF%94%E5%96%BB%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E5%86%99%E4%BD%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    从比喻开始学习写作
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%86%99%E4%BD%9C%E8%AF%BE%EF%BC%9A%E7%9C%9F%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%B4%A0%E6%9D%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    写作课：真实并不是素材
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%86%99%E4%BD%9C%EF%BC%8C%E4%BD%9C%E4%B8%BA%E4%B8%80%E7%A7%8D%E6%80%9D%E8%80%83%E6%AD%A6%E5%99%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    写作，作为一种思考武器
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E4%BD%A0%E6%80%8E%E6%A0%B7%E5%86%99%EF%BC%8C%E4%BD%A0%E5%B0%B1%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BA%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    你怎样写，你就是怎样的人
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%86%99%E5%88%B0%E4%B8%80%E5%8D%8A%E5%BE%88%E7%97%9B%E8%8B%A6%E6%80%8E%E4%B9%88%E5%8A%9E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    写到一半很痛苦怎么办
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E4%B8%80%E7%A7%8D%E6%8F%90%E5%8D%87%E5%B0%8F%E8%AF%B4%E9%89%B4%E8%B5%8F%E8%83%BD%E5%8A%9B%E7%9A%84%E6%96%B9%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    一种提升小说鉴赏能力的方法
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E4%B8%80%E6%AC%A1%E5%86%99%E4%BD%9C%E7%AD%94%E7%96%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    一次写作答疑
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E9%9D%A2%E5%90%91%E8%AF%BB%E8%80%85%E5%86%99%E4%BD%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    面向读者写作
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E7%90%86%E6%83%B3%E7%9A%84%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    理想的写作环境
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E7%9F%AD%E5%8F%A5%EF%BC%8C%E9%95%BF%E6%96%87%E4%BB%A5%E5%8F%8A%E8%AF%B4%E8%AF%9D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    短句，长文以及说话
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E8%83%BD%E8%AE%A9%E6%84%9F%E8%A7%89%E5%A5%BD%E7%82%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    能让感觉好点
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%86%99%E4%BD%9C%E5%A5%A5%E4%B9%89%EF%BC%9A%E5%8E%BB%E6%8E%89%E2%80%9C%E4%BA%86%E2%80%9D%E5%AD%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    写作奥义：去掉“了”字
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%A6%82%E4%BD%95%E6%8F%8F%E5%86%99%E5%8A%A8%E7%89%A9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何描写动物
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E4%BD%86%E8%BF%98%E6%98%AF%E5%8F%AF%E4%BB%A5%E8%B0%88%E8%B0%88%E4%BD%9C%E6%96%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    但还是可以谈谈作文
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E5%AD%A6%E4%BD%9C%E6%96%87%E7%9A%84%E6%97%A9%E4%B8%8A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    学作文的早上
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%86%99%E4%BD%9C/%E6%A8%A1%E4%BB%BF%E5%90%8D%E5%AE%B6%E5%AD%A6%E5%86%99%E4%BD%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    模仿名家学写作
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    其他
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            其他
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E5%85%A5%E9%97%A8%E7%AE%97%E6%88%90%E5%8A%9F%E7%9A%84%E4%B8%80%E5%8D%8A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    入门算成功的一半
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E4%BB%8E%E7%95%AA%E8%8C%84%E9%92%9F%E5%88%B0%E8%AE%B0%E8%B4%A6%E6%9C%AC%E5%BC%80%E5%A7%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    从番茄钟到记账本开始
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E6%B2%A1%E6%9C%89%E4%BB%80%E4%B9%88%E7%82%B9%E5%AD%90%E6%98%AF%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    没有什么点子是了不起的
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E6%98%86%E8%99%AB%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    昆虫记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E7%A9%BF%E8%BF%87%E8%BA%AB%E4%BD%93%E7%9A%84%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    穿过身体的学习
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E6%8F%90%E5%8D%87%E9%98%85%E8%AF%BB%E9%80%9F%E5%BA%A6%E7%AD%94%E7%96%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    提升阅读速度答疑
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E6%B2%A1%E6%9C%89%E6%B1%AA%E6%98%9F%EF%BC%8C%E4%B9%9F%E6%B2%A1%E6%9C%89%E5%96%B5%E6%98%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    没有汪星，也没有喵星
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%85%B6%E4%BB%96/%E8%81%8A%E8%81%8A%E6%AD%A3%E5%BF%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    聊聊正念
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%A5%BD%E6%96%87%E7%AB%A0/%E5%86%99%E5%9C%A8%E7%88%B6%E4%BA%B2%E8%8A%82%E8%BE%B9%E4%B8%8A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    写在父亲节边上
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B/%E5%A5%BD%E6%96%87%E7%AB%A0/%E5%86%8D%E8%A7%81%EF%BC%8C%E7%88%B8%E7%88%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    再见，爸爸
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    认知类
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            认知类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E8%AE%A9%E5%A5%87%E8%BF%B9%E5%8F%91%E7%94%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    让奇迹发生
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E7%9F%A5%E8%AF%86%E7%9A%84%E7%BC%9D%E9%9A%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    知识的缝隙
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E6%97%A0%E5%B0%BD%E7%9A%84%E6%8E%A2%E7%B4%A2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    无尽的探索
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E7%89%9B%E5%B8%82%E4%BA%8F%E9%92%B1%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    牛市亏钱指南
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%A4%96%E5%A5%BD%E6%96%87/1000%E4%B8%AA%E7%9C%9F%E6%AD%A3%E7%9A%84%E7%B2%89%E4%B8%9D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1000个真正的粉丝
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E5%86%99%E7%BB%99%E5%AD%A6%E5%BC%9F%E5%AD%A6%E5%A6%B9%E4%BB%AC%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    写给学弟学妹们的一封信
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E5%BC%A0%E6%BD%87%E9%9B%A8%EF%BC%9A%E6%88%91%E7%9A%84%E4%BA%BA%E7%94%9F%E4%BF%A1%E5%BF%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    张潇雨：我的人生信念
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E7%BF%BB%E8%BA%AB%E6%94%B9%E5%91%BD%E7%9A%8410x%E6%B3%95%E5%88%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    翻身改命的10x法则
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E4%B8%80%E5%B0%81%E8%AE%A9%E7%8A%B9%E5%A4%AA%E4%BA%BA%E6%97%A0%E5%9C%B0%E8%87%AA%E5%AE%B9%E7%9A%84%E4%BF%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    一封让犹太人无地自容的信
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E8%AE%A4%E7%9F%A5/%E5%BC%A0%E6%BD%87%E9%9B%A8%E7%9A%84%E5%8A%A8%E6%80%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    张潇雨的动态
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    古诗文
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            古诗文
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E5%B8%88%E8%AF%B4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    师说
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E9%A9%AC%E8%AF%B4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    马说
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E5%8A%9D%E5%AD%A6_%E8%8D%80%E5%AD%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    劝学_荀子
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E5%8A%9D%E5%AD%A6_%E9%9F%A9%E6%84%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    劝学_韩愈
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E9%80%81%E4%B8%9C%E9%98%B3%E9%A9%AC%E7%94%9F%E5%BA%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    送东阳马生序（节选）
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E7%94%9F%E4%BA%8E%E5%BF%A7%E6%82%A3%EF%BC%8C%E6%AD%BB%E4%BA%8E%E5%AE%89%E4%B9%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    生于忧患，死于安乐
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E9%B1%BC%E6%88%91%E6%89%80%E6%AC%B2%E4%B9%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    鱼我所欲也
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E8%B5%A4%E5%A3%81%E8%B5%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    赤壁赋
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E9%80%8D%E9%81%A5%E6%B8%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    逍遥游
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E5%87%BA%E5%B8%88%E8%A1%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    出师表
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E9%82%B9%E5%BF%8C%E8%AE%BD%E9%BD%90%E7%8E%8B%E7%BA%B3%E8%B0%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    邹忌讽齐王纳谏
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E7%A6%BB%E9%AA%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    离骚
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E8%A7%82%E6%B2%A7%E6%B5%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    观沧海
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E7%90%B5%E7%90%B6%E8%A1%8C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    琵琶行
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E9%99%8B%E5%AE%A4%E9%93%AD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    陋室铭
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E7%88%B1%E8%8E%B2%E8%AF%B4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    爱莲说
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E9%86%89%E7%BF%81%E4%BA%AD%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    醉翁亭记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E5%B2%B3%E9%98%B3%E6%A5%BC%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    岳阳楼记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E6%B8%B8%E5%B1%B1%E8%A5%BF%E6%9D%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    游山西村
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9B%BD%E5%86%85%E5%A5%BD%E6%96%87/%E5%8F%A4%E6%96%87/%E5%94%90%E5%A4%9A%E4%BB%A4%C2%B7%E8%8A%A6%E5%8F%B6%E6%BB%A1%E6%B1%80%E6%B4%B2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    唐多令·芦叶满汀洲
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    xdite
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            xdite
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    打造超人大脑
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            打造超人大脑
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E5%89%8D%E8%A8%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    前言
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E4%B8%80%E7%AD%89%E7%9A%84%E5%A4%A7%E8%84%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    打造超人一等的大脑
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_3" id="__nav_5_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    输入
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            输入
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E8%AF%BB%E4%B9%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何快速读书
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E5%A6%82%E4%BD%95%E6%9C%89%E6%95%88%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何有效学习
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E5%A6%82%E4%BD%95%E6%9C%89%E6%95%88%E5%AD%A6%E4%BC%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何有效学会
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_4" id="__nav_5_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    输出
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            输出
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E8%BD%BB%E6%9D%BE%E5%86%99%E4%BD%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    轻松写作
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E6%8C%81%E4%B9%85%E5%86%99%E4%BD%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    持久写作
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E5%BF%AB%E9%80%9F%E4%BC%81%E5%88%92/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    快速企划且不搞砸
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_5" id="__nav_5_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    持续增长
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            持续增长
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E4%B9%A0%E6%83%AF%E4%B8%8E%E4%B8%8A%E7%98%BE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    习惯与上瘾
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E7%AE%A1%E7%90%86%E7%B2%BE%E5%8A%9B%E4%B8%8E%E5%B9%B8%E8%BF%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    管理精力与幸运
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E8%B7%A8%E7%95%8C%E5%AD%A6%E4%B9%A0%E5%8F%8A%E6%97%A0%E9%99%90%E5%A2%9E%E9%95%BF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    跨界学习及无限增长
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E5%A6%82%E4%BD%95%E4%BB%8E%E9%9B%B6%E5%BF%AB%E9%80%9F%E5%AD%A6%E4%B8%80%E9%97%A8%E6%96%B0%E9%A2%86%E5%9F%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何从零快速学一门新领域
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%A4%A7%E8%84%91/%E7%94%A8%E5%AF%B9%E5%A4%A7%E8%84%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    用对大脑
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    打造超人思维
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            打造超人思维
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E4%B8%80%E7%AD%89%E7%9A%84%E6%80%9D%E7%BB%B4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    打造超人一等的思维
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2" id="__nav_5_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    过去
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            过去
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    算法决定了你最终的命运
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    算法决定了你最终的命运
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      一款模拟人生的桌游“财富流”
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      从桌游裡看人品
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      一款游戏，看到完全不同的人生
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一款游戏，看到完全不同的人生">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      一般的研发工程师
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      一般的非研发部门同事
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      资深研发工程师
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      高阶主管与祕书组
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      不同文化价值观，决定了不同的行动方式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="不同文化价值观，决定了不同的行动方式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      职业特性的竞争思维
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      市场大小造成的合作/竞争意识
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      对财富的看法决定了自己的世界与命运
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      富二代为什麽容易家破人亡？
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      要改变命运，就要改变你的演算法
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%BD%A0%E7%9A%84%E5%8D%87%E7%BA%A7%E5%8D%A1%E9%A1%BF%E7%82%B9%E5%9C%A8%E5%93%AA%E9%87%8C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    你的升级卡顿点在哪里
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_3" id="__nav_5_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    现在
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            现在
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%BB%A5%E4%BA%8C%E7%BB%B4%E6%80%9D%E7%BB%B4%E5%8F%96%E4%BB%A3%E4%B8%80%E7%BB%B4%E8%A7%86%E8%A7%92/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    以二维思维取代一维视角
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%BB%91%E9%AD%94%E6%B3%95%E8%88%AC%E7%9A%84%E7%BC%96%E7%A8%8B%E6%80%9D%E7%BB%B4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    黑魔法般的编程思维
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%88%9B%E6%96%B0%E4%B8%8D%E6%98%AF%E6%8B%8D%E8%84%91%E9%97%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    创新不是拍脑门
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%B7%A8%E7%95%8C%E6%89%BE%E5%88%B0%E6%96%B0%E7%AD%94%E6%A1%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    跨界找到新答案
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%E5%89%8D%E5%85%88%E8%B0%88%E5%88%86%E7%B1%BB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    解问题前先谈分类
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_4" id="__nav_5_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    未来
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            未来
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%BD%BF%E7%94%A8%E6%A6%82%E7%8E%87%E5%86%B3%E7%AD%96%E8%AE%A9%E4%BD%A0%E6%9B%B4%E5%B9%B8%E8%BF%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    使用概率决策让你更幸运
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%BD%BF%E7%94%A8%E5%A4%8D%E5%88%A9%E4%B8%8E%E6%9D%A0%E6%9D%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    使用复利与杠杆
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%A6%82%E4%BD%95%E5%9C%A8%E6%95%B0%E5%AD%A6%E4%B8%8A%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何在数学上财富自由
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%BB%93%E8%AF%AD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    结语
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    打造超人学习
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            打造超人学习
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E7%94%A8%E5%9B%9E%E4%BD%A0%E6%9C%AC%E6%9D%A5%E5%B0%B1%E6%9C%89%E7%9A%84%E8%B6%85%E8%83%BD%E5%8A%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    用回你本来就有的超能力
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_2" id="__nav_5_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    上
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            上
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E6%8F%90%E5%8D%87%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%85%B3%E9%94%AE%E8%83%BD%E5%8A%9B%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E4%B9%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    提升学习的关键能力到底是什么
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%8B%E5%8F%AF%E8%A7%81%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    建立可见的学习目标
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%88%87%E8%A5%BF%E7%93%9C%E4%B8%AD%E5%AD%A6%E8%B5%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    从切西瓜中学起
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E7%A7%91%E5%AD%A6%E7%BB%83%E8%AE%B0%E5%BF%86%EF%BC%8C%E8%B0%88%E2%80%9C%E8%AE%B0%E4%BD%8F%E2%80%9D%E4%B8%8E%E2%80%9C%E5%AD%A6%E4%BC%9A%E2%80%9D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    科学练记忆，谈“记住”与“学会”
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E9%AB%98%E6%89%8B%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8%E7%9A%84%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0%E5%9B%9B%E6%AD%A5%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    高手都在使用的刻意练习四步法
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%A4%A9%E6%89%8D%E5%A4%A7%E5%B8%88%E4%B8%8D%E4%BC%A0%E7%9A%84%E7%BB%8F%E9%AA%8C%E5%80%BC%E8%BD%BB%E6%9D%BE%E6%9A%B4%E5%8D%87%E7%A7%98%E7%B1%8D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    天才大师不传的经验值轻松暴升秘籍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%BF%83%E6%B5%81%E5%AD%A6%E4%B9%A0%E6%B3%95%E2%80%9C%E6%8A%80%E8%83%BD%E5%AE%9E%E6%88%98%E7%AF%87%E2%80%9D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    心流学习法“技能实战篇”
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%BF%83%E6%B5%81%E5%AD%A6%E4%B9%A0%E6%B3%95%E2%80%9C%E5%8A%A8%E6%9C%BA%E6%8B%86%E8%A7%A3%E7%AF%87%E2%80%9D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    心流学习法“动机拆解篇”
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E6%8E%A8%E5%8A%A8%E7%82%B9%E7%81%AB%E5%BC%95%E6%93%8E%E3%80%81%E5%B0%86%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%97%85%E7%A8%8B%E5%8C%96%E6%88%90%E4%B8%80%E5%9C%BA%E6%B8%B8%E6%88%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    推动点火引擎、将自己的学习旅程化成一场游戏
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%8F%98%E6%88%90%E9%AB%98%E6%89%8B%E6%9C%80%E5%BF%AB%E5%8F%AA%E9%9C%80%E8%A6%81%E4%B8%80%E5%B9%B4%E7%9A%84%E6%97%B6%E9%97%B4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    变成高手最快只需要一年的时间
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_3" id="__nav_5_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    下
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            下
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E8%AF%BB%E4%B9%A6%E8%83%BD%E5%8A%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    打造超人读书能力
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E8%BD%BB%E6%9D%BE%E7%9A%84%E5%B0%86%E4%B9%A6%E4%B8%AD%E7%9A%84%E8%B5%84%E8%AE%AF%E6%9C%89%E6%95%88%E7%BA%B3%E4%B8%BA%E5%B7%B1%E7%94%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    轻松的将书中的资讯有效纳为己用
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%81%9A%E5%87%BA%E7%9C%9F%E6%AD%A3%E8%83%BD%E8%AE%B0%E4%BD%8F%E5%86%85%E5%AE%B9%E7%9A%84%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    做出真正能记住内容的读书笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E6%9C%89%E6%95%88%E7%8E%87%E5%88%A9%E7%94%A8%E7%A2%8E%E7%89%87%E6%97%B6%E9%97%B4%E5%90%B8%E6%94%B6%E4%B9%A6%E6%9C%AC%E8%B5%84%E8%AE%AF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    有效率利用碎片时间吸收书本资讯
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%A6%82%E4%BD%95%E7%9C%81%E5%8A%9B%E5%90%91%E8%80%81%E5%B8%88%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何省力向老师学习
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%BC%9A%E4%B8%80%E9%97%A8%E6%96%B0%E8%AF%AD%E8%A8%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何学会一门新语言
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%A6%82%E4%BD%95%E5%90%AC%E4%BC%9A%E4%B8%80%E9%97%A8%E8%AF%BE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何听会一门课
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AD%A6%E4%BC%9A%E4%B8%80%E9%97%A8%E5%AD%A6%E9%97%AE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何自学会一门学问
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%BC%9A%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何学会编程语言
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E5%AD%A6%E4%B9%A0/%E5%90%8E%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    后记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    打造超人笔记
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            打造超人笔记
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%89%8D%E8%A8%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    前言
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E8%AE%B0%E5%BF%86%E3%80%81%E6%95%B4%E7%90%86%E3%80%81%E6%90%9C%E5%AF%BB%E3%80%81%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    记忆、整理、搜寻、应用
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E8%AE%B0%E5%BD%95/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    记录
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4_3" id="__nav_5_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            记录
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E6%8F%90%E5%8D%87%E8%AE%B0%E5%BD%95%E7%9A%84%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%9C%89%E6%95%88%E6%80%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    提升记录的速度与有效性
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E9%9A%8F%E6%89%8B%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    随手记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    上课笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    读书笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E4%BC%9A%E8%AE%AE%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    会议笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E7%BB%83%E5%8A%9F%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    练功笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%B0%8F%E8%8A%82/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    小节
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%89%E7%AB%A0/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    第三章
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4_4" id="__nav_5_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            第三章
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%B0%86%E7%BA%BF%E7%B4%A2%E5%8F%98%E6%88%90%E8%B5%84%E6%96%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    整理，将线索变成资料
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%B0%86%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E6%88%90%E8%83%BD%E6%B6%88%E5%8C%96%E7%9A%84%E8%B5%84%E8%AE%AF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    将资料整理成能消化的资讯
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E6%80%BB%E7%BB%93%E4%B8%8E%E5%BD%92%E7%BA%B3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    总结与归纳
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E6%95%B4%E5%90%88%E3%80%81%E5%BA%94%E7%94%A8%E3%80%81%E6%94%B9%E8%BF%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    整合、应用、改进
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E6%B3%95/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    卡片笔记法
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4_5" id="__nav_5_4_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            卡片笔记法
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E6%B3%95%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%85%88%E6%80%BB%E7%BB%93%E5%86%8D%E5%BD%92%E7%BA%B3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    卡片笔记法第一步：先总结再归纳
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E6%B3%95%E4%B8%80%E8%88%AC%E6%B5%81%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    卡片笔记法一般流程
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0%E6%B3%95%E9%AB%98%E7%BA%A7%E6%B5%81%E7%A8%8B%E7%89%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    卡片笔记法高级流程版
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E6%89%93%E9%80%A0%E4%B8%8D%E6%96%AD%E6%88%90%E9%95%BF%E7%9A%84%E9%95%BF%E9%9D%92%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    打造不断成长的长青笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%A6%82%E4%BD%95%E6%8C%A4%E5%87%BA%E9%9B%B6%E7%A2%8E%E6%97%B6%E9%97%B4%E6%95%B4%E7%90%86%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何挤出零碎时间整理笔记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4_6" id="__nav_5_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    搜寻
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            搜寻
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E6%90%9C%E5%AF%BB%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8E%A2%E7%B4%A2%E6%9C%AA%E7%9F%A5%E9%97%AE%E9%A2%98%E7%9A%84%E7%AD%94%E6%A1%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    搜寻：如何探索未知问题的答案
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E6%95%B4%E7%90%86%E3%80%81%E6%A0%87%E8%AE%B0%E3%80%81%E9%87%8D%E6%96%B0%E5%BD%92%E7%BA%B3%E3%80%81%E7%B1%BB%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    整理、标记、重新归纳、类比
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%BA%94%E7%94%A8/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    应用
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4_7" id="__nav_5_4_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            应用
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%AE%9E%E6%88%98%E5%B1%95%E7%A4%BA%EF%BC%9A%E6%9C%AC%E4%B9%A6%E5%A6%82%E4%BD%95%E5%86%99%E6%88%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    实战展示：本书如何写成
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%A6%82%E4%BD%95%E5%88%9B%E4%BD%9C%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB%E6%96%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何创作非虚构类文
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E5%A6%82%E4%BD%95%E5%88%9B%E4%BD%9C%E8%99%9A%E6%9E%84%E7%B1%BB%E6%96%87%E4%BD%93%EF%BC%9A%E5%A6%82%E5%B0%8F%E8%AF%B4%E3%80%81%E5%89%A7%E6%9C%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    如何创作虚构类文体：如小说、剧本
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%89%93%E9%80%A0%E8%B6%85%E4%BA%BA%E7%AC%94%E8%AE%B0/%E7%BB%93%E8%AF%AD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    结语
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      一款模拟人生的桌游“财富流”
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      从桌游裡看人品
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      一款游戏，看到完全不同的人生
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一款游戏，看到完全不同的人生">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      一般的研发工程师
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      一般的非研发部门同事
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      资深研发工程师
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      高阶主管与祕书组
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      不同文化价值观，决定了不同的行动方式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="不同文化价值观，决定了不同的行动方式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      职业特性的竞争思维
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      市场大小造成的合作/竞争意识
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      对财富的看法决定了自己的世界与命运
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      富二代为什麽容易家破人亡？
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      要改变命运，就要改变你的演算法
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../../../MOC/tags/#tag:命运" class="md-tag">命运</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="_1">第一章　演算法决定了你最终的命运<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>人好好的。为什麽要思维升级？我想这是各位读者在阅读这一本书时，所提出的第一个问题。</p>
+<p>我从前也这麽认为。以为人的命是天注定。每个人的命格都是一出生就被写死了。中间也许会有些许的变化。但总体结果不变。</p>
+<p>因为，我周遭有不少非常努力的朋友。他们一辈子很勤奋，但人生始终在原地踏步。我周遭也有一些相对懒惰的朋友，他们相对轻轻鬆鬆，就过上比别人容易好几百倍的人生。</p>
+<p>有时候，我自己在遭遇一些不顺遂时，也会想，人生真不公平。要是让我重来一次，或重新投胎一次，肯定不会遇上鸟事。</p>
+<p>不过，这当然也是嘴上说说。想是这样想，也不可能真的这样做。人生不可能重来，现在也不可能重新投胎。</p>
+<p>你有没有想过。如果有个机会让你重来，你有办法改变你的人生吗？</p>
+<h2 id="_2">一款模拟人生的桌游“财富流”<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>2019 年。一个偶然的机遇裡面。我接触到了一款非常有意思的桌游“财富流”。</p>
+<p>这个游戏，与网路上非常有名的“现金流”的玩法非常相似。原始的用意，也是一款金钱教育模拟游戏。透过桌游的模拟，让玩家得到财富管理上思维的转变。</p>
+<p>刚开始接触这款游戏时，我本来也是觉得这款游戏，充其量只是一款现金流copycat 的游戏。</p>
+<p>直到跟不同的玩家，打了几轮以后，才发现这游戏，并没有表面上的那麽简单。它并不仅仅只是一款金钱教育模拟游戏。而是一款极其贴近现实的决策模拟游戏。</p>
+<h2 id="_3">从桌游裡看人品<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>一直以来，我算是个重度桌游玩家。一般人对于桌游的印象，大多停留在“桌游”=“大富翁”的印象。事实上不是这样的，世界上有几千种不同的桌游，专门阐述不同的主题。</p>
+<p>我喜欢打桌游的原因，是因为桌游世界非常有意思。一般来说，每一盒桌游，多数都让玩家在短短的一两个小时（中小型桌游）学到非常多有趣的知识。甚至，透过同一款游戏，多次不同的游玩过程，还能领悟出不同的学问。</p>
+<p>在众多桌游当中，我最喜欢的一套是“卡坦岛”。这一款游戏，也是我进入桌游世界启蒙的第一款游戏。我喜欢卡坦岛的原因很简单，因为这款游戏，跟创业非常相似。一开始开局需要计算机率、中局需要策略佈局调整、不时还要跟同场玩家谈判交易，而且也有一定的运气成分。</p>
+<p>当然，桌游好玩的地方并不只是游戏本身。好玩的还有玩家本身。</p>
+<p>因为，桌游需要人玩。一个桌游最好玩的部份，通常还是玩家的互动部份。一个游戏，可能本身没那麽有趣。但是因为桌游的随机性，加上游戏机制需要的玩家互动，可能就会爆出精彩的火花。或者，又让你看到不同玩家不为人知的另外一面。</p>
+<p>知名港片《呖咕呖咕新年财》裡面，有一句经典台词让人印象深刻：<strong>“牌品不好就是人品不好”。</strong>这部片刚上映时是 2002年，我才刚念大学，看到这段台词，本来觉得这段台词也太绝对了。</p>
+<p>出社会以后，我开始学习打桌游。才发觉戏裡面的这句话是真的。在公司裡面玩桌游的同事，打起来气氛融洽在业务上合作起来很愉快。而那种玩起来动不动臭嘴甚至翻桌的人，合作起来还真是难受，团队气氛被搞烂、业务被玩炸根本是铁定的事。</p>
+<p>我在研究游戏理论时，才发现这句话为什麽这麽准确，是因为游戏本身就等于“简化的世界”。所以一个人在简化的桌游游戏裡面，很容易会显示自己对一件事的下意识反应与直接情绪。</p>
+<p>这也让我恍然大悟，为什麽古时候人谈生意，总要先在家裡约场麻将。因为商场上输赢这麽大。如果不知道一个人的牌品，如何放心跟一个人合作。也因为桌游能够直接显示玩家的底层决策与真实人品，所以后来我自己开公司时，也很喜欢不著痕迹的约同事一起玩桌游，看看他们的真实底层操作系统。</p>
+<h2 id="_4">一款游戏，看到完全不同的人生<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>在我玩到财富流这款游戏之后。因为觉得财富流的游戏过程与相对的游戏结局，真的太贴近当时参与游戏时玩家的人生了，几乎是将他从出生到当今的人生重演了一遍，还预测了结局。所以我兴起了一个念头，我想要找很多人来玩这款游戏。看看是不是这款游戏这麽准。而且，如果能够让自己的人生再重来一遍，每个玩家会做出什麽决策？</p>
+<p>我找到的第一批玩家，当然是我公司裡面的同事。因为公司还是要上班，我将同事分成了四组，按照下面的顺序约同事来玩：</p>
+<ul>
+<li>初级研发工程师</li>
+<li>初级非研发工程师</li>
+<li>资深研发工程师</li>
+<li>高阶主管与行政秘书们</li>
+</ul>
+<p>这个游戏的基本游戏精神是希望教会玩家规划理财与人生战略，知道藉助个人财务报表的规划。透过游戏知道自己为什麽无法财务自由的原因，从而脱离无穷迴圈。</p>
+<p>在游戏一开始，玩家要在盘面上选择自己希望的人生终极人生愿望，可能是：</p>
+<ul>
+<li>世界旅行</li>
+<li>买岛屿</li>
+<li>举办个人演唱会</li>
+<li>办大学</li>
+<li>非洲旅游</li>
+</ul>
+<p>等等。</p>
+<p>这些愿望的价格从人民币100万到1亿不等，精力花费是15至30点不等。游戏盘面分成内外两圈，你在内圈会经历人生的一切，诸如：</p>
+<ul>
+<li>结婚</li>
+<li>生子</li>
+<li>逆流</li>
+<li>机会</li>
+<li>觉察</li>
+<li>行情</li>
+</ul>
+<p>另外一圈是外圈。从内圈出到外圈的条件是：被动收入超过了你的支出，也就是财富自由状态。外圈的现金倍数是内圈的100倍。在内圈裡面的赚钱机会可能是数千到数十万不等，在外圈裡面的赚钱机会是数百万到上亿不等。</p>
+<p>游戏胜利的条件：在生命消逝前（游戏模拟20至60岁）赚到2000万，或者是走到你在外圈原始设定的终极愿望上，并且完成愿望。</p>
+<p>跟美国的现金流游戏一样的地方是：</p>
+<ul>
+<li>玩家必须注意自己的人生财务报表。</li>
+<li>被动收入必须超过支出。</li>
+</ul>
+<p>财富流游戏不一样的地方在于：</p>
+<ul>
+<li>除了地产、股票、企业之外，新增了副业。</li>
+<li>并不像现金流的设计，胜利手段主要在地产投资上。游戏裡面获得财富自由的方法有千百种。</li>
+<li>增添了精力设计，在游戏裡面投资地产、企业、股票、副业，都需要耗费精力。</li>
+<li>每个职业有不一样的起始精力，比如说祕书、客服的工资低但精力高，医生与工程师的工资高但精力低。</li>
+</ul>
+<p>每个职业的精力初始点有3到5点。游戏最多允许玩家有2点透支。如果透支超过2点，玩家就会死亡。比如说，兼太多副业，遇上团体逆流COVID-19就有可能死亡。</p>
+<p>所以玩家不能无止尽地追求金钱，也必须好好管理精力的使用。</p>
+<p>虽然说，在游戏裡能够达成财富自由的方法有千百种，不过主要核心攻略还是那几招：</p>
+<ul>
+<li>前期积攒原始资本（副业、股票投资都可以）。</li>
+<li>中期与人合作开公司或买房产投资，让自己的被动收入超过总支出，离开内圈。</li>
+<li>也可以不用那麽辛苦，儘量降低日常开支，找老闆带你出圈。</li>
+</ul>
+<p>每一场我都下去一起玩，看到了完全不同的世界。</p>
+<h3 id="_5">一般的研发工程师<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>在这一区，我玩得非常辛苦。</p>
+<p>游戏裡面有四种机会：副业（主动收入）、股票（一次性收入）、房产（被动收入）、企业（被动收入）。</p>
+<p>和一般的研发部门同事一起玩，我发现他们非常勤奋，而且这股勤奋像是病毒会传染一样，每个人都独立打四、五份工，每个人的游戏人生都很辛苦，到了60</p>
+<p>多岁都没有获得财富自由。</p>
+<p>他们不太看股票，认为风险太高。房产与企业之中觉得企业太贵，做不起。</p>
+<p>玩游戏的时候我也被他们传染了，拚命拼副业。但是后期我稍微做了一点不同的策略，在凑够了钱后，直接搞了个企业出圈。</p>
+<p>和他们一起玩让我打很多份工很辛苦，觉得人生好惨。</p>
+<h3 id="_6">一般的非研发部门同事<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>这一场就没有那麽极端，这一场的玩家没有把全部时间放在副业打工上。会去看一些股票，寻找其他的机会，做一些小合作。合作凑钱办企业，获得财富自由的速度就会快一点，人生不会那麽辛苦。</p>
+<p>比较值得注意的是，虽然大家愿意合作，但是彼此会算计，有点爱计较，所以失去好几个合作机会，甚至在合作前因为小条件谈不拢而拆伙。</p>
+<p>我在这场要凑局，好几个机会被爱计较的同事直接破坏，打得我烦躁不堪。让我意识到，人生要远离爱戳别人爱计较的槓精，跟他合作不会有好结果。</p>
+<h3 id="_7">资深研发工程师<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>这一场就非常有趣。资深工程师，不会把太多的时间放在贩卖时间换钱的副业上。他们的策略先用专业累积一些资本，然后再进行投资上。</p>
+<p>而且，资深工程师与初阶工程师在玩游戏非常的不同点在于。初阶工程师非常勤奋也玩命，但不与同桌玩家一起合作，活生生把游戏打成了单人版。但资深工程师乐于与同事一起合作，而且桌上的玩家，也是他们平常一起天天合作的同事。</p>
+<p>所以后期在办企业时，大家几乎没花什麽时间分彼此你我，有机会先合伙做了再说。所以财富自由来得非常快，大约40多岁就离开内圈了。到了游戏结束的时候，几乎每个人都出圈了，身家累积数百万。</p>
+<h3 id="_8">高阶主管与祕书组<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>这一场就更厉害了。在场的人有公司财务、助理、公司律师。他们最大的特性是几乎连一张贩卖时间的主动收入卡都不愿意尝试，每个人都瞄准投资、房产、企业。</p>
+<p>而且游戏财富自由的人竟然是我的两个助理，他们的特点是愿意跟人合作，本身带幸运值，最后资产累积到几千万之谱。</p>
+<p>这四场打下来，相当刷新我的三观。</p>
+<p>过去，我打过不少桌游，绝大多数的桌游心得，都跟网路上的评测心得差不多。甚至也有最佳玩法。</p>
+<p>但是这款财富流游戏的过程与结局却是千变万化。可以说，每个人对人生的价值观、与伙伴的合作方式，决定了他在游戏中最后的结局。</p>
+<p>在这四场中，我都有幸走到外圈财富自由，只是辛苦程度非常不一样。</p>
+<h2 id="_9">不同文化价值观，决定了不同的行动方式<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>2020年，因为疫情的关係，我在春节返台之后，就一直没出过家门。到了5月，台湾的疫情终于缓和。因为实在想出门社交，所以想约人打桌游。一想打桌游，我就想到了财富流游戏。</p>
+<h3 id="_10">职业特性的竞争思维<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>我很想在台湾看看我的朋友们会玩出什麽结果。所以上网约人玩。本来只想找6个人玩，没想到大家这阵子太闷了。结果竟然有30多个人报名。所以最后我只硬著头皮好些场。</p>
+<p>报名的人来自各行各业，第一场甚至来了很多位医师。所以我甚至把玩家分成了一般人桌与医师桌。</p>
+<p>不得不说医师桌的特性真的不一样。一开始医师们开局就打定主意不办贩卖时间的战略。直攻股票、房产、企业投资。比较特别的是，医师桌尝试翻了几次房产、企业，觉得价格太高以后，就不打算再尝试。</p>
+<p>不过中间发生了一个事件，有有个手气好的医师，在前几圈玩股票赢了十几万，本来其他医师投资股票时略显保守，一看到有玩家赚了这麽多钱，突然间杀红眼，大家纷纷大手笔开始炒股，将游戏活生生变成炒股大赛。</p>
+<p>几乎每次翻到机会就只愿意买股票。场上的教练多次劝他们要不要买点房产、企业，他们都听不进去。</p>
+<p>虽然股票几万几万地赚，但是累积速度很慢。到了五十多岁才有人突然清醒过来，问要如何才能财富自由。</p>
+<p>教练很无奈地说：“刚刚已经说了很多遍啊！合作买房产、企业！”</p>
+<p>医生们还是半信半疑，大家始终对于“合作”这件事有疑虑。</p>
+<p>游戏结束后，我对这样的玩家特徵有点好奇。好奇私底下问了其中一个医师玩家，为什麽会呈现这样的局面？</p>
+<p>他说：台湾的医师从小到大都是第一名，所以天生就非常热衷于“赢”与“竞争”。所以一旦有人领先，他们就会不由自主的想要比赛。所以才会不由自主的将游戏变成了炒股大赛，而忘记这个比赛一开始的目的是要赚到尽可能多的钱，实现财富自由。</p>
+<p>甚至杀红眼后，虽然听到场边教练的游戏建议，下意识也听不太进去。</p>
+<h3 id="_11">市场大小造成的合作/竞争意识<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>而在带领大家玩这个游戏时，我并没有刻意说明这是个竞争游戏还是合作游戏。</p>
+<p>但是就看过这麽多玩家游玩的经验，我发现中国玩家往往很容易开启合作模式。当大家发现赚钱速度太慢了，就会开始和其他玩家商量如何合作，加快赚钱速度。</p>
+<p>但是台湾玩家却截然相反。绝大多数的台湾玩家在初期往往会把这个游戏视为竞争游戏：有些人独善其身自己赚，有些人就是看别人做什麽就跟著做，开启竞争 模式，甚至自己不赚钱，专门黄掉别人的交易。</p>
+<p>从这裡面发现了两岸预设文化价值观的差异。在中国因为机会多，但风口消失很快，所以玩家对于机会的态度，就是先合作干一票再说，合作分红再慢慢谈，是正合思维（造成竞合双赢的局面）。</p>
+<p>台湾因为机会少，甚至要在领域内拿到第一名才有办法活得好，所以常常开起竞争模式，钱还没赚到，就先杀的你死我活。</p>
+<h3 id="_12">对财富的看法决定了自己的世界与命运<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>有一场很特别，让我留下深刻印象。那次来了12个人，有之前玩过的玩家，也有没玩过的新手。我直接将他们照游戏经验分成两桌各6人。</p>
+<p>在新手桌有个玩家，非常希望我在游戏开始前详细为他解说游戏规则，我给了他官方的游戏规则，但也告诉他，光看官方解说没什麽用，因为游戏规则差不多就是人生规则。</p>
+<p>先看过攻略也没用，因为玩家的底层值观会主下意识的在玩游戏的时候，做出让自己安心的决策。所以，知道别人怎麽赢，未必自己在游戏裡面就能那麽赢。</p>
+<p>他并不是很相信我的说法。果然，他这一场打得很辛苦。因为在遇到合作机会时，他虽然知道要合作，但是也害怕合作。</p>
+<p>另外一桌，因为已经是玩过这场游戏的玩家了。所以他们达到财富自由的速度非常快。我就提醒新手桌玩家，要不要趁间隙空档，过去观摩一下别人财富自由的方法。</p>
+<p>但是这一桌的玩家不以为然（开局之前很想知道别人怎麽赢，但是自己在人生苦战时，又不想要知道别人怎麽赢）。游戏又过了几轮，我又再次提醒，我以前在这个游戏裡面，曾经玩到数亿资产的结果，想不想知道我的战略。他们投来了我在炫耀的眼神，也没有想要理我的意思。</p>
+<p>这一桌在终局，没有人得到财富自由。场边教练在盘边观战时，好心提醒他们可以向银行借贷槓杆一下，跟别人合作办个企业，就比较有财富自由的机会。但是他们无动于衷。每个人都想靠自己的努力上天，但是一直失败。</p>
+<p>直到游戏的检讨环节，在开场时曾经向我问过详细规则的玩家，才向我提起他在游戏裡面他观察到一个战略（却始终没有付诸实行），询问我是否可以这麽做。。我说是啊，当然可以，游戏没有明文禁止，就是可以这样做。</p>
+<p>他开始怪我们没有主动提醒他这个规则。</p>
+<p>我的回应是，他在开始之前要很详细地想要知道所有檯面上的规则，但是遇到了檯面下的规则，为什麽没有主动询问呢？每个教练都强调，游戏裡遇到问题都可以马上问。实际情况是没有人开口问，甚至对教练给的建议无动于衷，也不打算採取行动改变现况。</p>
+<p>我也开门见山地说，既然大家都渴望财富自由，但是刚刚教练提醒你们去看别桌如何财富自由时，大家怎麽都露出一副不屑的样子，好像别人有钱是他家的事？</p>
+<p>场子裡面没有牆，何不花个一两分钟，走去看看隔壁桌怎麽打，再回来改变自己的玩法呢？</p>
+<p>大家听了突然如梦初醒。是阿！为什麽我们要下意识仇视并且屏蔽别人赚钱的战略呢？</p>
+<h3 id="_13">富二代为什麽容易家破人亡？<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>在我开的桌裡面，还曾经来过有一个更有意思的组合“富二代”。这个组合的由来，是因为公司裡面有位同事刚刚大学毕业，他的寝室室友都是富二代。听到他上班的内容是打桌游，非常羡慕。</p>
+<p>正好他的室友都刚出社会，都在找工作。于是我让同事以“打工”为由，付他们打工工资，商请他们来玩这这个游戏。</p>
+<p>为什麽这场游戏让我印象深刻呢？</p>
+<p>因为我遇过的游戏玩家，在这个游戏裡面，可能会遇到各种状况：贫穷、运气不好、精力透支、打得辛苦。但是很少人会玩到病死，或在内圈就直接破产的。就算是真的运势不好，也顶多是到了60岁还穷哈哈。</p>
+<p>但是这一桌的玩家，竟然有三个分别在35岁、40岁、45岁破产或病死出局，打到桌上最后只剩一个玩家，而这个玩家到60岁还在苦苦挣扎。</p>
+<p>我从来没看过这样的结果，连我自己都很惊讶。</p>
+<p>为什麽会有这样的的游戏结果呢？我发现这桌的玩家在现实生活中零用钱虽然很多，但是他们业馀的兴趣却是炒股。甚至有一个玩家还立志当股票名嘴。</p>
+<p>当然，这位未来的股票名嘴在游戏时也非常热中于投资股票，在游戏裡面也早早押到一个微课讲师的副业。但是他却是游戏裡面死最早的。因为在游戏中，他很早就将资产a* *  in买药业仙股，甚至买不够，还把所有贷款额度都花光拿去买股票，压垮自己的现金流。</p>
+<p>结果游戏裡面触发一个团体逆流事件：他买的仙股内线交易下市了，所以他的全部身家直接归零。在现金流被压死的情况下，又走到个人逆流，更是祸不单行，失业了。不仅如此，在逆流过程中，他的近况又再一步恶化，家人竟然住院了，也要花一大笔支出与精力。他是游戏裡面唯一没有保医疗险的人。</p>
+<p>其他玩家虽然跟他交情不错，也想救他。但是其他人一样也跟他一样买了很多股票，也赔了很多钱。没有人有钱有精力救他。于是他的结局就是在 35 岁宣告破产后死亡。</p>
+<p>游戏裡面另外两个死亡的玩家，一个是前期借钱买太多股票蒸发归零，后续得打很多份工才能维持开支，不要说合伙办企业了，他连维持正常现金流都有困难。而一个是花花公子，生了很多小孩，游戏裡面一直要去借精力，停下来休息。他们得一直靠暂停回合取得两点精力，才能继续下去。</p>
+<p>这三个玩家跟其他场的玩家最大的不同是，其他非富二代玩家，当发现自己走倒楣运时，都会停下来思考自己的战略，尝试一些其他不同的策略来改变自己的现况。</p>
+<p>但是这群富二代不曾停下来，只是不停地跟银行借钱，和朋友借钱，然后继续往前衝。越努力挣脱，陷入泥沼越深。而场上的玩家不是不愿意救，而是没有能力救他们，所以这些玩家是死于没有朋友救。</p>
+<p>这场打下来，我突然明白为什麽世界上的富二代下场多半不太好，因为他们不知道钱是怎麽赚来的。这些玩家打从出生就非常有钱，可以随意乱花。所以人生解决事情的战略，就是用钱摆平，然后继续按照自己的意志去行事，不想改变。</p>
+<p>而一般人因为赚钱辛苦，被毒打之后至少会退一步思考自己的策略是否有误，寻求他人意见、尝试新策略，一直想办法尝试到成功为止。</p>
+<h2 id="_14">要改变命运，就要改变你的演算法<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<p>我在网上曾经发表过这些游戏故事，意外在我的朋友圈裡得到很大的迴响。虽然我没有刻意推广这套游戏，但是这个游戏还是掀起了一小阵风潮。</p>
+<p>任谁都没有想到，从一个游戏裡面可以看见这麽多人生道理。</p>
+<p>吴军在他的《见识》一书裡提到一个观点：</p>
+<p>什麽是命呢？不同人有不同的理解。取决于两个因素：</p>
+<ul>
+<li>
+<p>环境因素</p>
+</li>
+<li>
+<p>自己对未来走向划定的方向。</p>
+</li>
+</ul>
+<p>决定个人命运的因素掌握在每个人自己的手裡。命就是一个人看问题和做事情的方法，如此而已，但它们却决定了人的一生。一个人看似运气好，其实是他的命好。命好，是因为他有独特的思考方法和行事方式。</p>
+<p>很多人在现实生活中过得很辛苦，财富流游戏提供你一个重新再来的机会。但是，我看到很多玩家第一次打游戏时，不管有没有看过网上的攻略，还是在游戏裡重複了自己的人生，却没办法让游戏结局变得不一样。</p>
+<p>唯有他们被游戏了毒打了一遍之后，被教练点破盲点之后，彻底改变了看事情的角度。第二次玩游戏，结局才有改变。</p>
+<p>所以我在这本书裡面不急著讲方法，而是希望透过这一连串的桌游故事让大家知道，人生最重要的是升级底层演算法。</p>
+<p>我们没办法改变我们的硬体，但是我们能够升级演算法，这样才能把你带到不一样甚至是想要的那条路上。</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Organize by Zhang Zhao
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.tabs", "navigation.tracking", "navigation.indexes", "toc.follow", "content.code.copy", "content.code.annotate", "content.code.edit", "navigation.top", "header.autohide"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
